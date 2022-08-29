@@ -1,0 +1,74 @@
+@import '~antd/dist/antd.css';
+
+
+.store {
+
+  position: relative;
+  height: 100vh;
+
+  form {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    textarea{
+      resize: none;
+      height: 200px;
+    }
+
+    .file-label{
+
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: darkgray;
+      border-radius: 50%;
+      transition: 0.3s;
+
+      &:hover{
+        background: #e0e0e0;
+      }
+
+      input{
+        display: none;
+      }
+    }
+
+  }
+
+  .d-flex {
+
+    width: 50%;
+    height: 50px;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    input {
+      width: 400px;
+    }
+
+
+  }
+
+  .pagination {
+
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    top: 87vh;
+
+  }
+
+
+}

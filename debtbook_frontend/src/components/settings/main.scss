@@ -1,0 +1,43 @@
+.settings {
+
+  form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    input{
+      width: 300px;
+    }
+  }
+
+  select{
+    width: 300px;
+    height: auto;
+    background: black;
+    color: white;font-weight: bolder;
+    font-size: 20px;
+
+    option{
+      height: 30px;
+      background: black;
+      font-size: 30px;
+      color: white;
+      font-weight: bolder;
+
+      &:hover{
+        background: #111111;
+      }
+    }
+  }
+
+
+}
