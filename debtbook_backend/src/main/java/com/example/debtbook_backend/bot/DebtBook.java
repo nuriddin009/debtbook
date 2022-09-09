@@ -896,7 +896,7 @@ public class DebtBook
             } else if (user.getStep().equals(BotSteps.ADMIN_DEBTOR) || user.getStep().equals(BotSteps.ADMIN_STORE)) {
                 if (user.getRole().equals(Role.SUPER_USER)) {
                     if (data.equals(BotCallBackData.GO_HOME)) {
-                        user.setStep(BotSteps.MAIN_MENU);
+                       user.setStep(BotSteps.MAIN_MENU);
                         deleteMsg(user, user.getMsgId());
                         user.setMyOffset(0);
                         sendMenuToSuperUser(user);
